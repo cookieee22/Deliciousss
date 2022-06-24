@@ -28,7 +28,7 @@ function Popular() {
     };
 
   return( 
-    <div>       
+    <div>
       <Wrapper>
         <h3>Popular Picks</h3>
         <Splide options={{
@@ -57,6 +57,7 @@ function Popular() {
  </div>
  );
 }
+
 
 const Wrapper = styled.div`
   margin: 4rem 0rem;
